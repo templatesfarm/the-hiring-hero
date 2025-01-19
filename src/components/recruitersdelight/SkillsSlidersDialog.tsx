@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -34,6 +34,10 @@ export const SkillsSlidersDialog: React.FC<SkillsDialogProps> = ({
     name: "",
     rating: 8.5,
   });
+
+  useEffect(() => {
+    setSkills(skillsInfo.skills);
+  }, [skillsInfo.skills]);
 
   const handleAddSkill = () => {
     if (newSkill.name && newSkill.rating > 0) {

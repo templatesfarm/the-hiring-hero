@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HeroType } from "./hero.types";
 import {
   DialogDescription,
@@ -22,6 +22,10 @@ const HeroDialog: React.FC<HeroDialogProps> = ({
   saveHeroInfo,
 }) => {
   const [localHeroInfo, setLocalHeroInfo] = useState<HeroType>(heroInfo);
+
+  useEffect(() => {
+    setLocalHeroInfo(heroInfo);
+  }, [heroInfo]);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>

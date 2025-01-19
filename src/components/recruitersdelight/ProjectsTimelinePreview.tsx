@@ -29,7 +29,7 @@ export function ProjectsTimelineView({
   }
   return (
     <div className="w-full">
-      <Timeline data={data} />
+      <Timeline data={data} className="from-fuchsia-800 via-fuchsia-400" />
     </div>
   );
 }

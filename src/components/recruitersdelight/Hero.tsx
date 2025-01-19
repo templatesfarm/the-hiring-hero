@@ -6,6 +6,7 @@ import { usePortfolioStore } from "@/store/usePortfolioStore";
 import EditComponent from "../EditComponent";
 import { HeroBeamPathView } from "./HeroBeamView";
 import HeroDialog from "../Hero/HeroDialog";
+import { BackgroundLinesDemo } from "./BackgroundColorsfulLines";
 
 export const Hero = () => {
   const { portfolio, saveHeroInfo, isLoading } = usePortfolioStore();
@@ -34,6 +35,7 @@ export const HeroBeam: React.FC<HeroBeamProps> = ({
   saveHeroInfo,
   isLoading,
 }) => {
+  console.log("🚀 ~ heroInfo:", heroInfo);
   const [isDialogOpen, setIsDialogOpen] = useState<boolean>(false);
 
   return (
@@ -41,7 +43,7 @@ export const HeroBeam: React.FC<HeroBeamProps> = ({
       isEditing={isEditing}
       handleEditClick={() => setIsDialogOpen(true)}
     >
-      <HeroBeamPathView heroInfo={heroInfo} isLoading={isLoading} />
+      <BackgroundLinesDemo heroInfo={heroInfo} isLoading={isLoading} />
       <HeroDialog
         isOpen={isDialogOpen}
         onOpenChange={setIsDialogOpen}

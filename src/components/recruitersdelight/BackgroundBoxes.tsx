@@ -3,8 +3,6 @@ import React from "react";
 import { BoxesCore } from "@/components/ui/background-boxes";
 import MorphingText from "@/components/ui/morphing-text";
 import { HeroType } from "../Hero/hero.types";
-import { Skeleton } from "../ui/skeleton";
-import { cn } from "@/lib/utils"; // Assuming cn is a utility for conditional classes
 
 export function BackgroundBoxesDemo({
   heroInfo,
@@ -22,16 +20,7 @@ export function BackgroundBoxesDemo({
     <>
       {isLoading ? (
         // Skeleton or loading state
-        <div className="h-[90vh] relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
-          <div className="absolute inset-0 w-full h-[90vh] bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-          <Skeleton className="w-full h-[90vh]" />
-          <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
-            Loading...
-          </h1>
-          <p className="text-center mt-2 text-neutral-300 relative z-20">
-            Please wait while we load the content
-          </p>
-        </div>
+        <div></div>
       ) : (
         // Content when not loading
         <div className="relative w-full h-screen overflow-hidden bg-black-900 flex justify-center flex-col">

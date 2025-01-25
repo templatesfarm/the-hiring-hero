@@ -79,7 +79,7 @@ export default function AnimatedSliderWithScale({
         aria-valuemin={0}
         aria-valuemax={100}
         aria-valuenow={displayValue}
-        className="[&>:last-child>span]:h-6 [&>:last-child>span]:w-2.5 [&>:last-child>span]:border-[3px] [&>:last-child>span]:border-background [&>:last-child>span]:bg-primary [&>:last-child>span]:ring-offset-0"
+        className="[&>:last-child>span]:rounded"
       />
       <span
         className="mt-3 flex w-full items-center justify-between gap-1 px-2.5 text-xs font-medium text-muted-foreground"

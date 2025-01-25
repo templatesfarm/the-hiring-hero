@@ -4,9 +4,8 @@ import { useAppStore } from "@/store/appStore";
 import { HeroType } from "portfolioui";
 import { usePortfolioStore } from "@/store/usePortfolioStore";
 import EditComponent from "../EditComponent";
-import { HeroBeamPathView } from "./HeroBeamView";
 import HeroDialog from "../Hero/HeroDialog";
-import { BackgroundLinesDemo } from "./BackgroundColorsfulLines";
+import { BackgroundBoxesDemo } from "./BackgroundBoxes";
 
 export const Hero = () => {
   const { portfolio, saveHeroInfo, isLoading } = usePortfolioStore();
@@ -43,7 +42,8 @@ export const HeroBeam: React.FC<HeroBeamProps> = ({
       isEditing={isEditing}
       handleEditClick={() => setIsDialogOpen(true)}
     >
-      <BackgroundLinesDemo heroInfo={heroInfo} isLoading={isLoading} />
+      <BackgroundBoxesDemo heroInfo={heroInfo} isLoading={isLoading} />
+
       <HeroDialog
         isOpen={isDialogOpen}
         onOpenChange={setIsDialogOpen}

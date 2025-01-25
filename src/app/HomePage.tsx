@@ -8,6 +8,7 @@ import { Skills } from "@/components/recruitersdelight/Skills";
 import { PortfolioType, usePortfolioStore } from "@/store/usePortfolioStore";
 import { useEffect } from "react";
 import { ApplyChangesButton } from "@/components/ApplyChangesButton";
+import { ScrollProgressDemo } from "@/components/recruitersdelight/ScrollProgress";
 
 interface HomePageProps {
   portfolio: PortfolioType;
@@ -24,9 +25,10 @@ export default function HomePage({ portfolio, url }: HomePageProps) {
 
   return (
     <div className="min-h-screen bg-background overflow-hidden space-y-10 w-full">
-      <div className="py-5 relative">
+      <div className="pb-5 relative">
         <PasswordInput />
         <ApplyChangesButton />
+        <ScrollProgressDemo />
         <Dock />
         <Hero />
         <Skills />

@@ -70,7 +70,7 @@ export const FloatingDockEditable: React.FC<FloatingDockEditProps> = ({
         setTheme={setTheme}
         theme={theme}
         isLoading={isLoading}
-        className="bg-slate-100 dark:bg-slate-900"
+        className="bg-slate-100 dark:bg-neutral-900"
       />
       <PersonalInfoDialog
         isOpen={isDialogOpen}
@@ -102,7 +102,7 @@ export function FloatingDockDemo({
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-700 dark:text-neutral-300" />
+        <IconHome className="h-8 w-8 flex items-center justify-center rounded-full text-neutral-700 dark:text-neutral-300" />
       ),
       href: "#",
     },

@@ -95,22 +95,12 @@ export const TextRevealCard = ({
           className="absolute bg-background  z-20  will-change-transform"
         >
           {revealText && (
-            <p
-              // style={{
-              //   textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
-              // }}
-              className="text-sm md:text-base lg:text-2xl py-2 font-bold text-foreground bg-clip-text w-fit mx-auto text-wrap"
-            >
+            <p className="text-sm md:text-base lg:text-lg py-2 font-semibold text-center bg-gradient-to-r from-orange-600 via-orange-500 to-gray-500 bg-clip-text text-transparent animate-pulse">
               {revealText}
             </p>
           )}
           {revealText2 && (
-            <p
-              // style={{
-              //   textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
-              // }}
-              className="text-sm md:text-base lg:text-2xl py-2 font-bold text-foreground bg-clip-text w-fit mx-auto text-wrap"
-            >
+            <p className="text-sm md:text-base lg:text-lg py-2 font-semibold text-center bg-gradient-to-r from-orange-600 via-orange-500 to-gray-500 bg-clip-text text-transparent animate-pulse">
               {revealText2}
             </p>
           )}
@@ -190,7 +180,7 @@ const Stars = () => {
             left: `${random() * 100}%`,
             width: `4px`,
             height: `4px`,
-            backgroundColor: "grey",
+            backgroundColor: "#ea580c",
             borderRadius: "50%",
             zIndex: 1,
           }}

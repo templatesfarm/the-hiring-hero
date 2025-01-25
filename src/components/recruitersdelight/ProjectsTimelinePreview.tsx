@@ -15,9 +15,23 @@ export function ProjectsTimelineView({
       <div className="space-y-5">
         <ProjectHeadline headline={project.headline1} />
         <ProjectHeadline headline={project.headline2} />
-        <div className="flex flex-row justify-between items-center">
-          {project.companyName && <div>Company: {project.companyName}</div>}
-          {project.clientName && <div>Client: {project.clientName}</div>}
+        <div className="flex flex-row gap-4 items-center">
+          {project.companyName && (
+            <div>
+              <span className="mr-2 text-xs">✧</span>Company:{" "}
+              {project.companyName}
+            </div>
+          )}
+        </div>
+        <div className="flex flex-row gap-4 items-center">
+          {project.clientName && (
+            <div>
+              <span className="mr-2 text-xs">✧</span>Client:{" "}
+              {project.clientName}
+              <br />
+              <br />
+            </div>
+          )}
         </div>
         <ProjectSkills skills={project.skills} />
         <ProjectImages images={project.images} />
@@ -29,7 +43,7 @@ export function ProjectsTimelineView({
   }
   return (
     <div className="w-full">
-      <Timeline data={data} className="from-fuchsia-800 via-fuchsia-400" />
+      <Timeline data={data} className="from-orange-700 via-oranghe-400" />
     </div>
   );
 }
@@ -52,7 +66,8 @@ const ProjectSkills = ({ skills = "" }: { skills: string }) => {
 
 const ProjectHeadline = ({ headline }: { headline: string }) => {
   return (
-    <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+    <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-md font-normal">
+      <span className="mr-2 text-xs">✦</span>
       {headline}
     </p>
   );

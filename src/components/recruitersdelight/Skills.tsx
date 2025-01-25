@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { SkillsSkeleton } from "../Loaders";
 import { useAppStore } from "@/store/appStore";
 import { usePortfolioStore } from "@/store/usePortfolioStore";
 import { SkillsSlidersType } from "./skillsSliders.types";

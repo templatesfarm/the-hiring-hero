@@ -5,6 +5,7 @@ import "./globals.css";
 
 // import { Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 import { AuthProvider } from "portfolioui";
 
 // const spaceGrotestk = Space_Grotesk({ subsets: ["latin"] });
@@ -34,6 +35,7 @@ export default function RootLayout({
             }
           >
             <main className="bg-background text-foreground">{children}</main>
+            <Toaster />
           </AuthProvider>
         </ThemeProvider>
       </body>

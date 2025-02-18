@@ -34,15 +34,15 @@ export function BackgroundBoxesDemo({
           {introductions.length > 1 ? (
             <MorphingText
               texts={introductions} // Use the array of introductions for morphing
-              className="text-lg md:text-3xl lg:text-4xl mb-0 text-center mt-3 font-bold text-black-900 dark:text-neutral-300 relative z-20"
+              className="text-lg md:text-3xl my-3 lg:text-4xl text-center py-2 md:py-5 font-bold text-black-900 dark:text-neutral-300 relative z-20"
             />
           ) : (
-            <p className="text-lg md:text-3xl lg:text-4xl mb-4 py-4 text-center mt-2 font-bold text-black-900 dark:text-neutral-300 relative z-20">
+            <p className="text-lg md:text-3xl lg:text-4xl text-center py-2 md:py-4 font-bold text-black-900 dark:text-neutral-300 relative z-20">
               {introductions[0]}
             </p>
           )}
 
-          <p className="max-w-xl mx-auto text-sm md:text-lg text-center text-black-900 dark:text-neutral-400 relative z-20">
+          <p className="max-w-xl mx-auto text-sm md:text-lg py-2 md:py-5 text-center text-black-900 dark:text-neutral-400 relative z-20">
             {heroInfo.description}
           </p>
         </div>

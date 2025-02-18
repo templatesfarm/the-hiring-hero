@@ -76,6 +76,7 @@ const config: Config = {
         "shimmer-slide":
           "shimmer-slide var(--speed) ease-in-out infinite alternate",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
+
         shine: "shine var(--duration) infinite linear",
       },
       keyframes: {

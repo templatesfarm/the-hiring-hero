@@ -9,6 +9,7 @@ import { PortfolioType, usePortfolioStore } from "@/store/usePortfolioStore";
 import { useEffect } from "react";
 import { ApplyChangesButton } from "@/components/ApplyChangesButton";
 import { ScrollProgressDemo } from "@/components/recruitersdelight/ScrollProgress";
+import Achievements from "@/components/Achievements";
 
 interface HomePageProps {
   portfolio: PortfolioType;
@@ -29,6 +30,7 @@ export default function HomePage({ portfolio, url }: HomePageProps) {
         <PasswordInput />
         <ApplyChangesButton />
         <ScrollProgressDemo />
+        <Achievements />
         <Dock />
         <Hero />
         <Skills />

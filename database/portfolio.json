@@ -25,79 +25,59 @@
     "displayName": "Specialization",
     "skills": [
       {
-        "id": "1740480426305",
-        "name": "ab",
+        "id": "1740561022085",
+        "name": "Artificial Intelligence",
         "rating": 8
       },
       {
-        "id": "1740480427760",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561032423",
+        "name": "Data Science",
+        "rating": 8
       },
       {
-        "id": "1740480430264",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561039835",
+        "name": "TensorFlow",
+        "rating": 7
       },
       {
-        "id": "1740480431715",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561047940",
+        "name": "Neural Networks",
+        "rating": 8.5
       },
       {
-        "id": "1740480433243",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561053720",
+        "name": "Cybersecurity",
+        "rating": 8
       },
       {
-        "id": "1740480434661",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561061830",
+        "name": "Cloud Computing",
+        "rating": 7
       },
       {
-        "id": "1740480435813",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561070225",
+        "name": "Research Methodologies",
+        "rating": 9
       },
       {
-        "id": "1740480437479",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561079785",
+        "name": "Educational Technology",
+        "rating": 8
       },
       {
-        "id": "1740480438678",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561088138",
+        "name": "AI in Education",
+        "rating": 8.5
       },
       {
-        "id": "1740480440222",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561097802",
+        "name": "Digital Learning Platforms",
+        "rating": 9.5
       },
       {
-        "id": "1740480441600",
-        "name": "ab",
-        "rating": 5
-      },
-      {
-        "id": "1740480442898",
-        "name": "ab",
-        "rating": 5
-      },
-      {
-        "id": "1740480444127",
-        "name": "ab",
-        "rating": 5
-      },
-      {
-        "id": "1740480445399",
-        "name": "ab",
-        "rating": 5
-      },
-      {
-        "id": "1740480446845",
-        "name": "ab",
-        "rating": 5
+        "id": "1740561105650",
+        "name": "Technical Writing",
+        "rating": 7.5
       }
     ],
     "skillAnimationType": "moving-animation"

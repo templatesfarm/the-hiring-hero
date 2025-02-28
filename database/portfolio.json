@@ -1,0 +1,215 @@
+{
+  "personalInfo": {
+    "displayName": "",
+    "name": "Vicky Kaushal",
+    "contactNumber": "9876543210",
+    "email": "vickykaushal@gmail.com",
+    "socialMedia": {
+      "linkedIn": "https://www.linkedin.com/",
+      "github": "https://github.com/",
+      "youtube": "",
+      "xdotcom": "https://twitter.com/",
+      "instagram": "",
+      "facebook": ""
+    },
+    "resumeName": "VickyKaushal-CV.pdf",
+    "gender": "Male"
+  },
+  "heroInfo": {
+    "displayName": "",
+    "message": "Hey, Nice to Meet You!",
+    "introduction": "I'm Vicky Kaushal, Professor of Computer Science",
+    "description": "An experienced academic professional specializing in artificial intelligence, machine learning, and software development. Passionate about mentoring students, conducting research, and contributing to the field of computer science education in India."
+  },
+  "skillsInfo": {
+    "displayName": "Specialization",
+    "skills": [
+      {
+        "id": "1740561022085",
+        "name": "Artificial Intelligence",
+        "rating": 8
+      },
+      {
+        "id": "1740561032423",
+        "name": "Data Science",
+        "rating": 8
+      },
+      {
+        "id": "1740561039835",
+        "name": "TensorFlow",
+        "rating": 7
+      },
+      {
+        "id": "1740561047940",
+        "name": "Neural Networks",
+        "rating": 8.5
+      },
+      {
+        "id": "1740561053720",
+        "name": "Cybersecurity",
+        "rating": 8
+      },
+      {
+        "id": "1740561061830",
+        "name": "Cloud Computing",
+        "rating": 7
+      },
+      {
+        "id": "1740561070225",
+        "name": "Research Methodologies",
+        "rating": 9
+      },
+      {
+        "id": "1740561079785",
+        "name": "Educational Technology",
+        "rating": 8
+      },
+      {
+        "id": "1740561088138",
+        "name": "AI in Education",
+        "rating": 8.5
+      },
+      {
+        "id": "1740561097802",
+        "name": "Digital Learning Platforms",
+        "rating": 9.5
+      },
+      {
+        "id": "1740561105650",
+        "name": "Technical Writing",
+        "rating": 7.5
+      }
+    ],
+    "skillAnimationType": "moving-animation"
+  },
+  "achievementsInfo": {
+    "displayName": "Achievements",
+    "listOfAchievements": [
+      {
+        "id": "1740419571264",
+        "text": "Received the Best Research Paper Award for significant contributions to artificial intelligence applications in education, with the research published in a renowned international journal.",
+        "type": "award"
+      },
+      {
+        "id": "1740419582546",
+        "text": "Successfully completed the Stanford University Machine Learning Certification, gaining expertise in supervised and unsupervised learning, deep learning, and AI-driven decision-making.",
+        "type": "certificate"
+      },
+      {
+        "id": "1740419590962",
+        "text": "Invited as a keynote speaker at the National Education Summit, where I delivered a session on the impact of AI and big data in modern educational methodologies.",
+        "type": "other"
+      },
+      {
+        "id": "1740419599529",
+        "text": "Honored with the Distinguished Professor Award by a prestigious university in recognition of excellence in research, teaching, and academic leadership.",
+        "type": "award"
+      },
+      {
+        "id": "1740419611379",
+        "text": "Mentored over 50 Ph.D. and Master’s students, guiding research scholars in various domains including artificial intelligence, cybersecurity, and blockchain applications.",
+        "type": "other"
+      }
+    ]
+  },
+  "projectsInfo": {
+    "displayName": "Timeline",
+    "projects": [
+      {
+        "timeline": "2022 – Present",
+        "projectName": "AI-Powered Personalized Learning for Rural India",
+        "headline1": "Developed AI-powered educational tools tailored for regional Indian languages.",
+        "headline2": "Supervised Ph.D. students on AI-driven innovations for education.",
+        "designation": "Professor of Computer Science",
+        "link": {
+          "linkText": "Link",
+          "linkUrl": "https://originui.com/badge"
+        },
+        "skills": "Artificial Intelligence, Machine Learning, Neural Networks, Research Methodologies, Data Science",
+        "companyName": "Indian Institute of Technology (IIT) Delhi",
+        "images": []
+      },
+      {
+        "timeline": "2019 – 2022",
+        "projectName": "Automated Essay Grading in Indian Languages",
+        "headline1": "Led a research team developing an AI-based essay grading system using NLP for Hindi, Tamil, and Bengali.",
+        "headline2": "Developed new course curricula for AI, data science, and NLP.",
+        "designation": "Associate Professor",
+        "link": {
+          "linkText": "Link",
+          "linkUrl": "https://originui.com/badge"
+        },
+        "skills": "NLP, Deep Learning, Academic Research, Python, Data Analytics",
+        "companyName": "Indian Statistical Institute (ISI) Kolkata",
+        "images": []
+      },
+      {
+        "timeline": "2016 – 2019",
+        "projectName": "Blockchain for Secure Digital Academic Records",
+        "headline1": "Researched blockchain applications for secure and tamper-proof academic credentials.",
+        "headline2": "Supervised undergraduate research projects on decentralized security systems.",
+        "designation": "Assistant Professor",
+        "link": {
+          "linkText": "",
+          "linkUrl": ""
+        },
+        "skills": "Blockchain, Cybersecurity, Cryptography, Smart Contracts",
+        "companyName": "Delhi Technological University (DTU)",
+        "images": []
+      }
+    ]
+  },
+  "qualificationInfo": {
+    "displayName": "Qualifications",
+    "qualifications": [
+      {
+        "timeline": "2015 – 2019",
+        "courseName": "Doctor of Philosophy (Ph.D.) in Computer Science",
+        "instituteName": "Indian Institute of Technology (IIT) Bombay",
+        "specializedIn": "Artificial Intelligence, Machine Learning",
+        "yearPassout": "",
+        "headline1": "Conducted research on deep learning models for Indian language processing.",
+        "headline2": "Published multiple research papers in IEEE, Springer, and Scopus-indexed journals.",
+        "cgpa": "9.8",
+        "link": {
+          "linkText": "",
+          "linkUrl": ""
+        },
+        "images": [],
+        "rank": "4"
+      },
+      {
+        "timeline": "2013 – 2015",
+        "courseName": "Master of Technology (M.Tech.) in Computer Science",
+        "instituteName": "Indian Institute of Science (IISc) Bangalore",
+        "specializedIn": "Software Engineering, Data Science",
+        "yearPassout": "",
+        "headline1": "Focused on large-scale cloud computing solutions for Indian enterprises.",
+        "headline2": "Published a thesis on optimizing AI-driven healthcare solutions.",
+        "cgpa": "9.5",
+        "link": {
+          "linkText": "",
+          "linkUrl": ""
+        },
+        "images": [],
+        "rank": "5"
+      },
+      {
+        "timeline": "2009 – 2013",
+        "courseName": "Bachelor of Technology (B.Tech.) in Computer Science",
+        "instituteName": "National Institute of Technology (NIT) Trichy",
+        "specializedIn": "Full-Stack Development, Database Management",
+        "yearPassout": "",
+        "headline1": "Developed an online examination system adopted by multiple universities.",
+        "headline2": "Represented India at the ACM ICPC World Finals.",
+        "cgpa": "9.2",
+        "link": {
+          "linkText": "",
+          "linkUrl": ""
+        },
+        "images": [],
+        "rank": "6"
+      }
+    ]
+  }
+}

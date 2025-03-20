@@ -5,3 +5,9 @@ export const serverRoutes = {
 export const databaseRoutes = {
   PORTFOLIO: "database/portfolio.json",
 };
+
+export enum TypesOfAchievement {
+  AWARD = "award",
+  CERTIFICATE = "certificate",
+  OTHER = "other",
+}
